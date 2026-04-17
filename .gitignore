@@ -1,0 +1,137 @@
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Models directory (contains trained ML models)
+models/
+*.joblib
+*.pkl
+*.pickle
+
+# Processed data directories
+data/processed/
+data/*/processed/
+data/sentinel/*/processed/
+data/icesat2/*/processed/
+
+# Cache directories
+data/cache/
+data/*/cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/*.log
+*.log.*
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Large data files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Sentinel-2 downloaded data (large files)
+data/sentinel/*/raw/
+*.SAFE/
+
+# ICESat-2 downloaded data
+data/icesat2/*/raw/
+
+# Output directories with large files
+outputs/*/executed_notebooks/
+outputs/*/final_showcase/*.html
+outputs/*/final_showcase/*.png
+outputs/*/final_showcase/*.jpg
+outputs/*/final_showcase/*.jpeg
+
+# Keep structure but ignore large content
+!outputs/*/final_showcase/.gitkeep
+!data/*/processed/.gitkeep
+!data/*/cache/.gitkeep
+!models/.gitkeep
+
+# Configuration files with sensitive data
+config/*_auth.json
+config/copernicus_auth.json
+config/sentinel_api_config.json
+sentinel_auth.py
+
+# Python distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/

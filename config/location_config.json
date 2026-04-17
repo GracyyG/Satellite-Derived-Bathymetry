@@ -1,0 +1,9 @@
+{
+  "region_name": "lakshadweep",
+  "aoi": {
+    "min_lat": 10.75,
+    "max_lat": 10.95,
+    "min_lon": 72.35,
+    "max_lon": 72.65
+  }
+}

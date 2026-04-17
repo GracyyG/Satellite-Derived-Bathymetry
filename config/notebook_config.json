@@ -1,0 +1,9 @@
+{
+  "region": "andaman",
+  "safe_file_path": "data\\sentinel\\andaman\\raw\\S2C_MSIL2A_20251110T055101_N0511_R048_T42QWL_20251110T082017.SAFE.zip",
+  "safe_file_name": "S2C_MSIL2A_20251110T055101_N0511_R048_T42QWL_20251110T082017.SAFE.zip",
+  "data_root": "data/sentinel/andaman",
+  "output_root": "outputs/andaman",
+  "processing_level": "Level-2A",
+  "last_updated": "2025-11-17 00:35:48"
+}

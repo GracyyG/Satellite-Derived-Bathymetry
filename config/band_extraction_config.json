@@ -1,0 +1,66 @@
+{
+  "bands": [
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B8A",
+    "B11",
+    "B12"
+  ],
+  "resolution": {
+    "B02": "10m",
+    "B03": "10m",
+    "B04": "10m",
+    "B08": "10m",
+    "B05": "20m",
+    "B06": "20m",
+    "B07": "20m",
+    "B8A": "20m",
+    "B11": "20m",
+    "B12": "20m"
+  },
+  "folder_structure": {
+    "10m": "GRANULE/*/IMG_DATA/R10m/",
+    "20m": "GRANULE/*/IMG_DATA/R20m/",
+    "60m": "GRANULE/*/IMG_DATA/R60m/"
+  },
+  "file_pattern": {
+    "B02": "*_B02_10m.jp2",
+    "B03": "*_B03_10m.jp2",
+    "B04": "*_B04_10m.jp2",
+    "B08": "*_B08_10m.jp2",
+    "B05": "*_B05_20m.jp2",
+    "B06": "*_B06_20m.jp2",
+    "B07": "*_B07_20m.jp2",
+    "B8A": "*_B8A_20m.jp2",
+    "B11": "*_B11_20m.jp2",
+    "B12": "*_B12_20m.jp2"
+  },
+  "safe_file": {
+    "path": "data\\sentinel\\andaman\\raw\\S2C_MSIL2A_20251110T055101_N0511_R048_T42QWL_20251110T082017.SAFE.zip",
+    "name": "S2C_MSIL2A_20251110T055101_N0511_R048_T42QWL_20251110T082017.SAFE.zip",
+    "processing_level": "Level-2A",
+    "satellite": "Sentinel-2C",
+    "sensing_date": "20251110T055101",
+    "tile_id": "42QWL"
+  },
+  "region": "andaman",
+  "output_paths": {
+    "processed": "data\\sentinel\\andaman\\processed",
+    "bands": "data\\sentinel\\andaman\\processed\\bands",
+    "rgb": "data\\sentinel\\andaman\\processed\\rgb",
+    "indices": "data\\sentinel\\andaman\\processed\\indices",
+    "metadata": "data\\sentinel\\andaman\\processed\\metadata",
+    "thumbnails": "data\\sentinel\\andaman\\processed\\thumbnails"
+  },
+  "_metadata": {
+    "generated_at": "2025-11-17T00:35:48.385638",
+    "generated_by": "BandExtractionConfig",
+    "region": "andaman",
+    "safe_file": "S2C_MSIL2A_20251110T055101_N0511_R048_T42QWL_20251110T082017.SAFE.zip"
+  }
+}

@@ -1,0 +1,11 @@
+rasterio
+geopandas
+numpy
+matplotlib
+scikit-learn
+plotly
+pyproj
+rioxarray
+sentinelsat
+xarray
+opencv-python
