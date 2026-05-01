@@ -107,7 +107,7 @@ def main():
                     "safe_file_path": config.get("safe_file_path", ""),
                     "output_dir": str(output_base)
                 },
-                kernel_name="python3"
+                kernel_name="venv"
             )
             
             print(f"[SUCCESS] Completed {notebook_name}")
